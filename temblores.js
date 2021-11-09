@@ -13,11 +13,11 @@ var subduccion= L.imageOverlay("rstSubduccion.png",[[11.219875, -85.950241],[8.0
 var gaso= L.geoJson(gasolineras);
 var schools= L.geoJson(escuelas);
 
-
 var overlays= {
     "Fallas": fallas,
     "Subduccion":subduccion
 };
+
 
 var datos= {
     "Gasolineras":gaso,
